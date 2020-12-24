@@ -89,7 +89,7 @@ body {
     position: fixed;
     width: 40rem;
     height: 100%;
-    background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, .8)), url("/img/nav-bg.jpeg") no-repeat center;
+    background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, .8)), url("img/nav-bg.jpeg") no-repeat center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -236,7 +236,8 @@ body {
 
 .header {
     margin-left: 8rem;
-    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url("/img/header-3.jpeg") center no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)),url("img/header-3.jpeg") no-repeat center;
+    width: 100%;
     background-size: cover;
     height: 100vh;
 }
